@@ -1,0 +1,19 @@
+{
+  "name": "default-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongoose.js",
+  "scripts": {
+    "dev": "nodemon mongoose.js",
+    "prod": "node index.js"
+  },
+  "author": "axer665",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
